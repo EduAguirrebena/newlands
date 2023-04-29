@@ -85,20 +85,20 @@
           echo '<li class="sidebar-item">';
         }
         ?>
-          <a href="index.php" class="sidebar-link">
+          <a href="/" class="sidebar-link">
             <i class="bi bi-grid-fill"></i>
             <span>Dashboard</span>
           </a>
         </li>
 
         <?php
-        if($active == 'usuario'){
+        if($active == 'calculadora'){
           echo '<li class="sidebar-item active">';
         }else{
           echo '<li class="sidebar-item">';
         }
         ?>
-          <a href="index.php" class="sidebar-link">
+          <a href="/calculadora" class="sidebar-link">
             <i class="fa-solid fa-calculator"></i>
             <span>Calculadora</span>
           </a>

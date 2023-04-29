@@ -1,17 +1,15 @@
 <?php
 
 $request = $_SERVER['REQUEST_URI'];
-// echo $request."<br>";
+echo $request;
 
 switch ($request) {
-    case '':
-      
-    case '/':
-      require "dashboard.php";
-      break;
+    case '/pruebas/':
+        require "../index.php";
+        break;
 
-    case '/calculadora':
-        require "calculadora.php";
+    case '/pruebas/calculadora':
+        require "../calculadora.php";
         break;
     
     default:
